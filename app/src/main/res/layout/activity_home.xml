@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/form">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/bmc" />
+
+    <TextView
+        android:text="Beautiful Malang adalah aplikasi berbasis android yang kami buat untuk para wisatawan lokal maupun wisatawan asing agar mereka mengetahui lebih dalam informasi mengenai 'Tempat Wisata Malang' tanpa bingung mencari website di internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:text="Click Here !" />
+
+</RelativeLayout>
